@@ -4,7 +4,7 @@ Payalnik is an aggressive javascript static analysis tool.
 
 Availablle checks:
 
-* `return` when inside `filter`, `map` or similar. also arguments for anonymous function passed to them
+* `return` when inside `filter`, `map` or similar, also arguments for an anonymous function passed to them
 
 * jsdoc signature for function declaration and function expression
 
