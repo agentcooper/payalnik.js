@@ -1,0 +1,27 @@
+{
+	"name" : "payalnik.js",
+	
+	"description" : "Aggresive static analysis tool",
+
+	"tags" : ["static", "analysis", "checker"],
+	"version" : "0.0.1",
+
+	"main": "./lib/payalnik.js",
+
+	"directories": {
+		"lib": "./lib"
+	},
+	"bin": {
+		"payalnik": "./bin/payalnik"
+	},
+
+	"author" : "Artem Tyurin <artem.tyurin@gmail.com>",
+
+	"engines" : ["node >= 0.6"],
+	"dependencies": {
+		"esprima": "0.9.9",
+		"es6-shim": "*"
+	},
+
+	"license": "MIT"
+}
