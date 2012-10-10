@@ -1,6 +1,6 @@
-## Payalnik
+## Payalnik.js
 
-Payalnik is an aggressive javascript static analysis tool.
+Payalnik.js is an aggressive javascript static analysis tool.
 
 Availablle checks:
 
