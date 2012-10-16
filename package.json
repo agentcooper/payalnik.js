@@ -17,11 +17,14 @@
 
 	"author" : "Artem Tyurin <artem.tyurin@gmail.com>",
 
-	"engines" : ["node >= 0.6"],
+	"engines" : ["node >= 0.8"],
 	"dependencies": {
 		"esprima": "0.9.9",
 		"es6-shim": "*"
 	},
+	"devDependencies": {
+		"mocha": ">=1.6.0"
+  	},
 
 	"license": "MIT"
 }
