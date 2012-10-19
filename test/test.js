@@ -71,3 +71,17 @@ describe('bitshift operators', function(){
     );
   });
 });
+
+
+describe('main scope access in timed functions (setTimeout and setInterval)', function(){
+  it('shouldnt exist', function(){
+    var input = fs.readFileSync(path + 'setTimeout.js').toString();
+
+    assert.deepEqual(payalnik(input),
+      [
+        [ 'wrong_this', 6 ],
+        [ 'wrong_this', 17]
+      ]
+    );
+  });
+});
