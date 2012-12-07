@@ -12,6 +12,10 @@ Availablle checks:
 
 and some others.
 
-Tests and examples are coming soon.
+### Tests
+
+Run `mocha` (you should probably install it first).
+
+### Credits
 
 Powered by [Esprima](https://github.com/ariya/esprima).
