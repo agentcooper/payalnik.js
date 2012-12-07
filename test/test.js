@@ -85,3 +85,18 @@ describe('main scope access in timed functions (setTimeout and setInterval)', fu
     );
   });
 });
+
+
+describe('typeof comparison check', function() {
+  it('should work', function() {
+    var input = fs.readFileSync(path + 'typeof.js').toString();
+
+    assert.deepEqual(payalnik(input),
+      [
+        [ 'wrong_typeof', 3 ],
+        [ 'wrong_typeof', 7 ],
+        [ 'wrong_typeof', 9 ]
+      ]
+    );
+  });
+});
