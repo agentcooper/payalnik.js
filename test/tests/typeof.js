@@ -14,5 +14,9 @@ if (typeof myVar !== 'String') { // uppercase
 
 	}
 
+	if (typeof myVar != "undefined") {
+
+	}
+
 }
 
