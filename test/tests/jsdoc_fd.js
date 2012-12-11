@@ -13,3 +13,8 @@ function f1(x) {
 function f2(y) {
 
 }
+
+/*
+ * @param {Function(Object)} callback
+ */
+function f3(callback) {}
