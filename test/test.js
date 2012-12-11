@@ -33,27 +33,15 @@ describe('top level scope variable', function(){
 });
 
 
-describe('jsdoc for function declaration', function(){
+describe('jsdoc for FE and FD', function(){
   it('signature must be correct', function(){
-    var input = fs.readFileSync(path + 'jsdoc_fd.js').toString();
+    var input = fs.readFileSync(path + 'jsdoc.js').toString();
 
     assert.deepEqual(payalnik(input),
       [
         ['jsdoc', 4,  [ ['a'] ]],
-        ['jsdoc', 13, [ ['b'] ]]
-      ]
-    );
-  });
-});
-
-
-describe('jsdoc for function expression', function(){
-  it('signature must be correct', function(){
-    var input = fs.readFileSync(path + 'jsdoc_fe.js').toString();
-
-    assert.deepEqual(payalnik(input),
-      [
-        [ 'jsdoc', 7, [['n', 'x', 'y']] ]
+        ['jsdoc', 13, [ ['b'] ]],
+        ['jsdoc', 28, [ ['n', 'x', 'y'] ]]
       ]
     );
   });

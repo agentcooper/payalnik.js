@@ -18,3 +18,14 @@ function f2(y) {
  * @param {Function(Object)} callback
  */
 function f3(callback) {}
+
+var obj = {
+	/*
+	 * @param {Number} n
+	 * @param {Number} x
+	 * @param {Number} y
+	 */
+	myfunc: function(n, k) {
+
+	}
+};
