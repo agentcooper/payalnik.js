@@ -21,7 +21,7 @@ describe('filter return argument', function(){
 
 describe('top level scope variable', function(){
   it('should be "that"', function(){
-    var input = fs.readFileSync(path + 'that.js').toString();
+    var input = fs.readFileSync(path + 'self.js').toString();
 
     assert.deepEqual(payalnik(input),
       [
@@ -63,7 +63,7 @@ describe('bitshift operators', function(){
 
 describe('main scope access in timed functions (setTimeout and setInterval)', function(){
   it('shouldnt exist', function(){
-    var input = fs.readFileSync(path + 'setTimeout.js').toString();
+    var input = fs.readFileSync(path + 'timeout.js').toString();
 
     assert.deepEqual(payalnik(input),
       [
